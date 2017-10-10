@@ -1,0 +1,168 @@
+
+
+.row > div {}
+
+.sticky-top {
+  background-color: skyblue;
+  border-bottom: solid 1px #0060b3;
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-toggler, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open>.nav-link
+{
+  color: #0060b3;
+}
+.borders {
+  border-bottom: solid 1px #0060b3;
+  border-top: solid 1px #0060b3;
+}
+
+.page-title{
+  background-color: #0060b3;
+    color: white;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+#row1 {
+ padding:30px;
+  height: 400px;
+  
+   background-image: url("http://wallpapercave.com/wp/3Mttadt.jpg");
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+#row2 {
+ background: skyblue;
+ padding: 20px;
+  
+}
+#row2b {
+ background: red;
+  height:100px;
+     background-image: url("http://wallpapercave.com/wp/3Mttadt.jpg");
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#row3{
+  background:skyblue;
+  height:80px;
+  color: #0060b3;
+}
+
+
+
+#row4{
+ background-image: url("http://www.maidstoneaquaticsonline.co.uk/ekmps/shops/marksmith/images/juwel-aquarium-background-poster-2-small-60-x-30-[2]-5119-p.jpg");
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#row5{
+  background:skyblue;
+  height:80px;
+  color: #0060b3;
+}
+
+#row6{
+      background-color: #0275d8;
+}
+
+#row7{
+background:skyblue;
+color: #0060b3;
+padding: 5px;
+}
+
+.middle {
+  margin: auto;
+  text-align: center;
+}
+
+#row1 .col {
+  width: 50%;
+  margin:auto;
+}
+
+#row4 div {
+  padding:20px;
+}
+
+#bio {
+  padding: 50px;
+  color: #0060b3;
+}
+#pic{
+ 
+  background-size: cover;
+  background-position: center;
+  min-height:200px;
+  border-radius: 20px;
+  text-align: center;
+}
+.biopic {
+  max-height: 300px;
+  margin: auto;
+  border-radius: 20px;
+  border: solid 1px #0060b3;
+}
+
+.figure {
+  background: lightblue;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  color: #0060b3;
+  border: solid 1px  #0060b3;
+}
+.figure-caption {
+  color: #0060b3;
+}
+#row1 h1{
+  font-size:100px;
+}
+#row1 div {
+  border:none;
+}
+
+
+.divider div
+{
+  padding-top:10px;
+  text-align:center;
+}
+
+#row6 .col-md-6{
+  
+  color: white;
+  padding: 30px;
+}
+
+.formbox{
+  background:skyblue;
+  padding:20px;
+  border-radius:10px;
+  height:100%;
+  color: #0060b3;
+}
+.formbox h4{
+ text-align:center
+}
+
+.formbox a{
+padding:10px;
+  
+}
+
+.figure-img {
+  background-color: white;
+}

@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="codepen.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../bootstrap.min.css"/>
+</head>
+
+<body class="body" data-spy="scroll" data-target="#scroll-spy"  data-offset="50">
+
+<!--NAV-->
+<nav class="navbar sticky-top navbar-toggleable-md navbar-light bg-faded" >
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">Navbar</a>
+
+  <div class="collapse navbar-collapse" id="scroll-spy">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link active" href="#" id="b1" >Top<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#row3" id="b3">Work</a>
+      </li>
+
+      <li class="nav-item" id="b6">
+        <a class="nav-link" href="#row6" >Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!--BODY-->
+<div class="container-fluid"> 
+  
+ <!--ROW 1 INTRO-->
+  <div class="row" id="row1">
+    <div class="col-md-8 middle">
+      <h1 class="page-title">Name</h1>
+    </div>
+  </div>
+  
+    <!-- ROW2 -->
+  <div class="row borders" id="row2">
+   
+      <div class="col-md-6" id="pic">
+        <img src="https://u57193820.dl.dropboxusercontent.com/u/57193820/Iceland.jpg" alt="A generic square placeholder image with rounded corners in a figure." class="img-fluid biopic">
+      </div> 
+      
+    <div class="col-md-6 middle" id="bio">
+        <h3>Intro text.</h3>
+      </div>
+  
+  </div>
+  
+     <!-- ROW2B - SPACE-->
+   <div class="row divider" id="row2b">
+     <div class="col-md-12">
+       
+        <h1></h1>
+       
+     </div>  
+   </div>  
+  
+   <!-- ROW3 - HEADING-->
+   <div class="row divider borders" id="row3">
+     <div class="col-md-12">
+       
+        <h1>Projects</h1>
+       
+     </div>  
+   </div>  
+   
+  <!-- ROW4 PROJECTS-->
+   <div class="row" id="row4">
+     
+      <div class="col-md-4 middle">  
+        <a href="#">
+        <figure class="figure">
+          <h3> Diioma</h3>
+  <img src="https://u57193820.dl.dropboxusercontent.com/u/57193820/Diioma%20Logo%20V2.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+  <figcaption class="figure-caption">This website I created features stores from over 200 Japanese students abroad, and is all in Japanese.</figcaption>
+</figure>
+        </a>
+        
+        
+        
+        
+      </div>
+     
+     <div class="col-md-4 middle">  
+          
+       <a href="#"><figure class="figure">
+         <h3>Amani</h3>
+  <img src="https://u57193820.dl.dropboxusercontent.com/u/57193820/Logo%20Square.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+  <figcaption class="figure-caption">I designed the website and  marketing this store, and even painted a mural on the wall of the store itself.</figcaption>
+</figure>
+       </a>
+      </div>
+     
+     <div class="col-md-4 middle">  
+       
+         <a href="https://oxcord.io"> 
+       <figure class="figure">  
+          <h3>Oxcord</h3>
+  <img src="https://u57193820.dl.dropboxusercontent.com/u/57193820/Oxcord.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+  <figcaption class="figure-caption">A platform which allows night club patrons to vote on what songs get played next. I am currently building this using angular.</figcaption>
+</figure>
+       </a>
+      </div>
+     
+   </div>
+
+ <!-- ROW5 - HEDING-->
+   <div class="row divider borders" id="row5">
+     <div class="col-md-12">
+      
+         <h1>Contact</h1>
+             
+     </div>  
+   </div>    
+    
+<!-- ROW6 CONTACT-->
+   <div class="row" id="row6">
+     <div class="col-md-6">
+       <div class="formbox"> 
+        <h4> Send me a message!</h4>   
+ 
+ <form >
+   
+   <div class="form-group">
+                      <label for="exampleInputName2">Name</label>
+                      <input type="text" class="form-control" id="exampleInputName2" placeholder="Your Name">
+                    </div>
+   
+  <div class="form-group">
+    <label for="email">Email address:</label>
+	<input type="email" class="form-control" id="email" placeholder="your@email.com">
+   </div>
+   
+   
+    <div class="form-group ">
+                      <label for="exampleInputText">Your Message</label>
+                     <textarea  class="form-control" placeholder="I love you."></textarea> 
+                    </div>
+   
+   <div class="form-group">
+  <button class="btn btn-primary">Submit</button>
+     <!--type="submit" -->
+  </div>
+</form>
+    </div>   
+
+     </div>  
+     
+     <div class="col-md-6">
+       <div class="formbox">
+       <h4> Find me!</h4> 
+          <a href="https://www.facebook.com/jonnykalambay"><button class="btn btn-block btn-primary" ><i class="fa fa-facebook"></i> Facebook</button></a>
+         
+           <a href="https://www.linkedin.com/in/jonathankalambay/">  <button class="btn btn-block btn-primary"><i class="fa fa-linkedin"></i> Linkedin</button></a>
+         
+           <a href="https://www.instagram.com/jonnykalambay">
+         <button class="btn btn-block btn-primary"><i class="fa fa-instagram"></i> Instagram</button></a>
+         
+           <a href="https://github.com/jonnyk20">
+         <button class="btn btn-block btn-primary"><i class="fa fa-github"></i> Github</button></a>
+         
+                  <a href="https://codepen.io/jonnnyk20">
+         <button class="btn btn-block btn-primary"><i class="fa fa-codepen"></i> Codepen</button></a>
+         
+         
+       </div> 
+     </div>  
+     
+   
+  </div>   
+  
+  <!-- ROW7 FOOTER-->
+   <div class="row" id="row7">
+   
+     <div class="col-md-12">
+      
+        <div id="box4" class="middle">
+        <p>Copyright © 2017 Jonny K</p>
+        </div>      
+     
+     </div>  
+    
+   </div>   
+    
+    
+    
+    
+<!-- END -->
+</div>
+<script src="../jquery-3.2.1.min.js"> 
+</script>
+<script src="./codepen.js"> 
+</script>
+</body>
+</html>
